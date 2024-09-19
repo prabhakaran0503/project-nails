@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.Franchise-sec{
+    width: 100%;
+    margin-top: 5rem;
+}
+.Franchise-contaner{
+    width: 75%;
+    margin: auto;
+    background-color: rgb(239,234,242);
+    border-radius: 7rem 0px 0px 20px;
+}
+.Franchise-row1{
+    display: flex;
+}
+.Franchise-row1-col1{
+    width: 100%;
+}
+
+.Franchise-row1-col1-content{
+    padding: 50px;
+}
+.Franchise-row1-col1-content p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(109,120,131);
+}
+#Franchise-row1-col1-content-header::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 12%;
+    background-color:  rgb(109,120,131);
+}
+.Franchise-row1-col1-content h1{
+    color: rgb(91,48,124);
+}
+#Franchise-row1-col1-content-para{
+    margin-top: 30px;
+}
+.Franchise-row1-col1-btn{
+    margin-top: 50px;
+}
+.Franchise-row1-col1-btn button{
+    padding: 10px 28px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(92,50,124);
+    color: white;
+}
+.Franchise-row1-col2{
+    width: 90%;
+    height: 24.5rem;
+}
+.Franchise-row1-col2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.Franchise-contaner2{
+    width: 75%;
+    margin: auto;   
+}
+.Franchise-row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.Franchise-row2-col1{
+    width: 12.5rem;
+    height: 12rem;
+    border-radius: 20px;
+}
+.Franchise-row2-col1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Franchise-row2-col2{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 20px;
+}
+.Franchise-row2-col2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Franchise-row2-col3{
+    width: 27rem;
+    height: 12.5rem;
+    border-radius: 20px;
+    background-color: rgb(239,234,242);
+    text-align: center;
+    
+    padding: 20px;
+    align-items: center;
+}
+.Franchise-row2-col3 h1{
+    color: rgb(91,48,124);
+    font-size: 35px;
+}
+.Franchise-row2-col3 p{
+    font-weight: 600;
+    margin-top: 20px;
+    color: rgb(98,110,121);
+}
+.Franchise-row2-col3 button{
+    color: white;
+    background-color: rgb(91,48,124);
+    padding: 12px 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.Franchise-row2-col4{
+    width: 14rem;
+    height: 12rem;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.Franchise-row2-col4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Franchise-row2-col5{
+    width: 12.5rem;
+    height: 12rem;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Franchise-row2-col5 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Franchise-row2-col6{
+    width: 20rem;
+    height: 12rem;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Franchise-row2-col6 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Franchise-row2-col7{
+    width: 12.5rem;
+    height: 12rem;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.Franchise-row2-col7 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:1023px) {
+    .Franchise-sec{
+        margin-top: 2rem;
+    }
+    .Franchise-contaner{
+        width: 90%;
+        height: 39.3rem;
+        background-color: rgb(239,234,242);
+        border-radius: 2rem 0px 0px 0px;
+
+    }
+    .Franchise-row1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Franchise-row1-col1{
+        width: 100%;
+    }
+    .Franchise-row1-col2{
+        width: 100%;
+    }
+    .Franchise-row1-col2 img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .Franchise-contaner2{
+        width: 90%;
+    }
+    .Franchise-row2-col1{
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 20px;
+    }   
+    .Franchise-row2-col2{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    .Franchise-row2-col3{
+        height: 14rem;
+    }
+    .Franchise-row2-col3 button{
+        margin-top: 20px;
+    }
+    .Franchise-row2-col4{
+        width: 20rem;
+        height: 15rem;
+    }
+    .Franchise-row2-col5{
+        margin-left: 50px;
+        width: 15rem;
+        height: 15rem;
+    }
+    .Franchise-row2-col6{
+        width: 100%;
+    }
+    .Franchise-row2-col7{
+        margin-left: 50px;
+        width: 15rem;
+        height: 15rem;
+    }
+    
+}
+
